@@ -81,7 +81,6 @@ To enable intelligent information retrieval, I used sentence-transformers for se
 _Key Skills: Python, APIs, Pagination_
 
 <div style="text-align: justify">
-
 This project demonstrates how to access and process paginated data from an API using Python, as part of coursework for the Data Engineering Bootcamp at Nashville Software School.
 
 Key steps include authenticating with the API, using query parameters (`offset` and `limit`) to retrieve data in batches, and saving the results to a `.json` file 10 records at a time. The project also covers reformatting and writing the data to a `.csv` file, ensuring proper formatting for tabular data and handling special characters within values.
