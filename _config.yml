@@ -1,0 +1,29 @@
+title: <p align="center"> Giorgio Carbone </p>
+
+logo: "/images/picture.png?raw=true"
+
+description:
+  <p align="center">
+  Pennsylvania, USA
+  <br> +1(225)210-0199
+  <br> prasiwakoti@gmail.com
+  <br> <a href="pdf/resume_co.pdf">Resume</a> |
+  <a href="https://www.linkedin.com/in/prahlad-siwakoti/">LinkedIn</a> |
+  <a href="https://github.com/siwa-p">GitHub</a>
+  <br> <a href="https://scholar.google.com/citations?user=ZUcAvcsAAAAJ&hl=en&oi=ao">Google Scholar</a> |
+  </p>
+  
+  <p align="justify">
+  I am a <b>data scientist</b> who enjoys connecting the dots by the use of technology. 
+  <br>
+  I have graduated with a <b>Master's Degree in Data Science at University of Texas at Austin</b>, where I received solid training in all the major fields of Data Science.
+  <br>
+  I have a PhD in physics from Louisiana State University</b>.
+  <br>
+  I consider myself ... .
+  <br><br>
+  </p>
+  
+theme: jekyll-theme-minimal
+# google_analytics: UA-145578661-1 # Google Analytics tracking ID
+
