@@ -40,7 +40,9 @@ To run the app, use the following R command:
 ```r
 shiny::runGitHub("National-parks-Midcourse", "siwa-p")
 ```
+
 ---
+
 ### Forecasting time-series data: A python implementation
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/siwa-p/Time-Series-Forecasting)
@@ -60,6 +62,7 @@ Each method is implemented in Python and evaluated using a sample revenue datase
 </div>
 
 ---
+
 ### Question-Answering with vector database
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/siwa-p/Question_Answer_Vector_database/tree/main)
@@ -71,6 +74,7 @@ I developed a question-answering system centered on Oscar Best Picture winners s
 To enable intelligent information retrieval, I used sentence-transformers for semantic search, allowing the system to find relevant context for each question. Leveraging HuggingFace’s question-answering pipeline, the model generated automated answers, which I compared against ground-truth responses to evaluate accuracy. This project demonstrates my skills in web scraping, natural language processing, vector search, and the practical evaluation of AI-generated outputs.
 
 ---
+
 ### Using pagination in Python
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/siwa-p/Using-Pagination-in-Python)
