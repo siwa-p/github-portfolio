@@ -46,9 +46,8 @@ shiny::runGitHub("National-parks-Midcourse", "siwa-p")
 ### Forecasting time-series data: A python implementation
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/siwa-p/Time-Series-Forecasting)
-[![Open PDF](https://img.shields.io/badge/PDF-View%20Slides%20PDF-red?logo=adobe-acrobat-reader)]([TSForecasting.pdf](https://github.com/siwa-p/Time-Series-Forecasting/blob/main/TSForecasting.pdf))
-
-Key Skills: Python (PyTorch, LSTM), Time-series forecasting (ARIMA, Regression-based forecasting)
+_Key 
+Skills: Python (PyTorch, LSTM), Time-series forecasting (ARIMA, Regression-based forecasting)
 <div style="text-align: justify">
 
 This work is a walkthrough for time-series forecasting in Python. Time series data are unique due to their serial dependence, requiring specialized analysis methods and leveraging domain knowledge for effective modeling. The project demonstrates practical steps for handling time series, including data preprocessing, exploratory analysis, feature engineering, and the application of various forecasting models. Emphasis is placed on comparing traditional statistical approaches with machine learning and deep learning techniques to highlight their strengths and limitations in real-world forecasting scenarios.
@@ -72,7 +71,7 @@ _Key Skills: Webscraping, chromadb, NLP, HuggingFace
 I developed a question-answering system centered on Oscar Best Picture winners since 2000. This involved scraping Wikipedia articles for each film and extracting the main content, which I then processed and stored in a vector database (ChromaDB). I paired this unstructured text data with a curated set of questions and answers, enabling contextual queries about each movie’s details.
 
 To enable intelligent information retrieval, I used sentence-transformers for semantic search, allowing the system to find relevant context for each question. Leveraging HuggingFace’s question-answering pipeline, the model generated automated answers, which I compared against ground-truth responses to evaluate accuracy. This project demonstrates my skills in web scraping, natural language processing, vector search, and the practical evaluation of AI-generated outputs.
-
+</div>
 ---
 
 ### Using pagination in Python
@@ -82,9 +81,8 @@ To enable intelligent information retrieval, I used sentence-transformers for se
 _Key Skills: Python, APIs, Pagination_
 
 <div style="text-align: justify">
-<div style="text-align: justify">
+
 This project demonstrates how to access and process paginated data from an API using Python, as part of coursework for the Data Engineering Bootcamp at Nashville Software School.
 
 Key steps include authenticating with the API, using query parameters (`offset` and `limit`) to retrieve data in batches, and saving the results to a `.json` file 10 records at a time. The project also covers reformatting and writing the data to a `.csv` file, ensuring proper formatting for tabular data and handling special characters within values.
-
----
+</div>

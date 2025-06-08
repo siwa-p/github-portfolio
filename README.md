@@ -1,1 +1,1 @@
-Check out the minimal portfolio at https://siwa-p.github.io/github-portfolio/
+Check out my portfolio at https://siwa-p.github.io/github-portfolio/
