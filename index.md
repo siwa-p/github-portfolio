@@ -89,3 +89,16 @@ This project demonstrates how to access and process paginated data from an API u
 Key steps include authenticating with the API, using query parameters (`offset` and `limit`) to retrieve data in batches, and saving the results to a `.json` file 10 records at a time. The project also covers reformatting and writing the data to a `.csv` file, ensuring proper formatting for tabular data and handling special characters within values.
 
 </div>
+
+### Janells Car Sales
+
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/siwa-p/Jannells-Car-Sales)
+
+_Key Skills: Data Engineering, Database Schema design, PostgreSQL stored procedures, sqlalchemy, Python, APIs, Pagination, Data Validation_
+
+<div style="text-align: justify">
+This project showcases a complete data engineering pipeline for Jannell's Car Sales. It involved integrating API and CSV data, designing a normalized PostgreSQL database schema, and generating actionable insights for stakeholders. Key tasks included API integration with pagination, data ingestion using Python and SQLAlchemy, schema design with referential integrity, and data validation using SQL and Python scripts. A consolidated view was created for business reporting, with results exported to CSV and Excel for stakeholders.
+</div>
+<br>
+<center><img src="images/erd_jannels_car_sales.png"/></center>
+<br>
