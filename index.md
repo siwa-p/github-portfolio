@@ -95,6 +95,7 @@ Key steps include authenticating with the API, using query parameters (`offset` 
 ### Janells Car Sales
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/siwa-p/Jannells-Car-Sales)
+[![View Document](https://img.shields.io/badge/View-Project_Documentation-green?logo=Read-the-Docs)](pdf/jannels_car_sales.pdf)
 
 *Key Skills: Data Engineering, Database Schema design, PostgreSQL stored procedures, sqlalchemy, Python, APIs, Pagination, Data Validation*
 
