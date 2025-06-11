@@ -1,4 +1,5 @@
 # Portfolio
+
 ---
 
 ## Projects
@@ -7,7 +8,7 @@
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/siwa-p/Air-quality-monitoring-and-prediction-using-PurpleAir-data)
 
-_Key Skills: APIs, Python (PyTorch, scikit-learn, Pandas), Regression, Machine Learning_
+*Key Skills: APIs, Python (PyTorch, scikit-learn, Pandas), Regression, Machine Learning*
 <div style="text-align: justify">
 This project explores predictive modeling for air-quality monitoring using low-cost PurpleAir sensors (PM2.5) in the Dallas area (2022–2024) and meteorological data from [NOAA](https://www.noaa.gov). The motivation is to leverage the dense network of affordable sensors, which, despite lower accuracy, provide valuable, accessible data for research and public awareness—especially when corrected using recent EPA schemes.
 
@@ -28,7 +29,7 @@ To capture both spatial and temporal patterns, a 3D convolutional neural network
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/siwa-p/Wildland-fires-and-their-effects-on-visitation-data-in-US-National-Parks/tree/main)
 
-_Key Skills: R (Shiny, tidyverse), time-series forecasting, geospatial data visualization_
+*Key Skills: R (Shiny, tidyverse), time-series forecasting, geospatial data visualization*
 
 <div style="text-align: justify">
 <b>Motivation</b><br>
@@ -38,6 +39,7 @@ Forest fires are a natural process that can benefit ecosystems, but climate chan
 This Shiny app visualizes wildfire incidents in US national parks. Users can select a park and date range to highlight events on the map and view related data. Two time series plots show visitor data and fire events: the left plot displays overall visitation with fire events marked, while the right plot focuses on a selected event and applies a seasonal ARIMA forecast to visitor data after the incident, including a p-value for the fit.
 
 To run the app, use the following R command:
+
 ```r
 shiny::runGitHub("National-parks-Midcourse", "siwa-p")
 ```
@@ -48,7 +50,7 @@ shiny::runGitHub("National-parks-Midcourse", "siwa-p")
 ### Forecasting time-series data: A python implementation
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/siwa-p/Time-Series-Forecasting)
-_Key Skills: Python (PyTorch, LSTM), Time-series forecasting (ARIMA, Regression-based forecasting)_
+*Key Skills: Python (PyTorch, LSTM), Time-series forecasting (ARIMA, Regression-based forecasting)*
 <div style="text-align: justify">
 
 This work is a walkthrough for time-series forecasting in Python. Time series data are unique due to their serial dependence, requiring specialized analysis methods and leveraging domain knowledge for effective modeling. The project demonstrates practical steps for handling time series, including data preprocessing, exploratory analysis, feature engineering, and the application of various forecasting models. Emphasis is placed on comparing traditional statistical approaches with machine learning and deep learning techniques to highlight their strengths and limitations in real-world forecasting scenarios.
@@ -67,7 +69,7 @@ Each method is implemented in Python and evaluated using a sample revenue datase
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/siwa-p/Question_Answer_Vector_database/tree/main)
 
-_Key Skills: Webscraping, chromadb, NLP, HuggingFace_
+*Key Skills: Webscraping, chromadb, NLP, HuggingFace*
 
 <div style="text-align: justify">
 I developed a question-answering system centered on Oscar Best Picture winners since 2000. This involved scraping Wikipedia articles for each film and extracting the main content, which I then processed and stored in a vector database (ChromaDB). I paired this unstructured text data with a curated set of questions and answers, enabling contextual queries about each movie’s details.
@@ -81,7 +83,7 @@ To enable intelligent information retrieval, I used sentence-transformers for se
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/siwa-p/Using-Pagination-in-Python)
 
-_Key Skills: Python, APIs, Pagination_
+*Key Skills: Python, APIs, Pagination*
 
 <div style="text-align: justify">
 This project demonstrates how to access and process paginated data from an API using Python, as part of coursework for the Data Engineering Bootcamp at Nashville Software School.
@@ -94,11 +96,11 @@ Key steps include authenticating with the API, using query parameters (`offset` 
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/siwa-p/Jannells-Car-Sales)
 
-_Key Skills: Data Engineering, Database Schema design, PostgreSQL stored procedures, sqlalchemy, Python, APIs, Pagination, Data Validation_
+*Key Skills: Data Engineering, Database Schema design, PostgreSQL stored procedures, sqlalchemy, Python, APIs, Pagination, Data Validation*
 
-<div style="text-align: justify">
-This project showcases a complete data engineering pipeline for Jannell's Car Sales. It involved integrating API and CSV data, designing a normalized PostgreSQL database schema, and generating actionable insights for stakeholders. Key tasks included API integration with pagination, data ingestion using Python and SQLAlchemy, schema design with referential integrity, and data validation using SQL and Python scripts. A consolidated view was created for business reporting, with results exported to CSV and Excel for stakeholders.
-</div>
+This project showcases a complete data engineering pipeline for Jannell's Car Sales. It involved integrating API and CSV data, designing a normalized PostgreSQL database schema, and generating actionable insights for stakeholders.
+
+Key tasks included API integration with pagination, data ingestion using Python and SQLAlchemy, schema design with referential integrity, and data validation using SQL and Python scripts. A consolidated view was created for business reporting, with results exported to CSV and Excel for stakeholders.
 <br>
 <center><img src="images/erd_jannels_car_sales.png"/></center>
 <br>
