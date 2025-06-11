@@ -10,7 +10,8 @@
 
 *Key Skills: APIs, Python (PyTorch, scikit-learn, Pandas), Regression, Machine Learning*
 <div style="text-align: justify">
-This project explores predictive modeling for air-quality monitoring using low-cost PurpleAir sensors (PM2.5) in the Dallas area (2022–2024) and meteorological data from [NOAA](https://www.noaa.gov). The motivation is to leverage the dense network of affordable sensors, which, despite lower accuracy, provide valuable, accessible data for research and public awareness—especially when corrected using recent EPA schemes.
+
+This project explores predictive modeling for air-quality monitoring using low-cost PurpleAir sensors (PM2.5) in the Dallas area (2022–2024) and meteorological data from [NOAA](https://www.noaa.gov/). The motivation is to leverage the dense network of affordable sensors, which, despite lower accuracy, provide valuable, accessible data for research and public awareness—especially when corrected using recent EPA schemes.
 
 The main questions addressed are: Can machine learning models predict air quality using sensor and weather data? Can neural networks further improve predictions?
 
@@ -33,9 +34,11 @@ To capture both spatial and temporal patterns, a 3D convolutional neural network
 
 <div style="text-align: justify">
 <b>Motivation</b><br>
+
 Forest fires are a natural process that can benefit ecosystems, but climate change has made wildfires larger and harder to control, causing greater damage to forests and human settlements.
 
 <b>About the app</b><br>
+
 This Shiny app visualizes wildfire incidents in US national parks. Users can select a park and date range to highlight events on the map and view related data. Two time series plots show visitor data and fire events: the left plot displays overall visitation with fire events marked, while the right plot focuses on a selected event and applies a seasonal ARIMA forecast to visitor data after the incident, including a p-value for the fit.
 
 To run the app, use the following R command:
@@ -51,6 +54,7 @@ shiny::runGitHub("National-parks-Midcourse", "siwa-p")
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/siwa-p/Time-Series-Forecasting)
 [![View Document](https://img.shields.io/badge/View-Project_Documentation-green?logo=Read-the-Docs)](pdf/TSForecasting.pdf)
+
 *Key Skills: Python (PyTorch, LSTM), Time-series forecasting (ARIMA, Regression-based forecasting)*
 <div style="text-align: justify">
 
@@ -73,7 +77,7 @@ Each method is implemented in Python and evaluated using a sample revenue datase
 *Key Skills: Webscraping, chromadb, NLP, HuggingFace*
 
 <div style="text-align: justify">
-I developed a question-answering system centered on Oscar Best Picture winners since 2000. This involved scraping Wikipedia articles for each film and extracting the main content, which I then processed and stored in a vector database (ChromaDB). I paired this unstructured text data with a curated set of questions and answers, enabling contextual queries about each movie’s details.
+This project is an effort to build a simple question-answering model using scraped texts from Wikipedia. This involved scraping Wikipedia articles for each film and extracting the main content, which I then processed and stored in a vector database (ChromaDB). I paired this unstructured text data with a curated set of questions and answers, enabling contextual queries about each movie’s details.
 
 To enable intelligent information retrieval, I used sentence-transformers for semantic search, allowing the system to find relevant context for each question. Leveraging HuggingFace’s question-answering pipeline, the model generated automated answers, which I compared against ground-truth responses to evaluate accuracy. This project demonstrates my skills in web scraping, natural language processing, vector search, and the practical evaluation of AI-generated outputs.
 </div>
