@@ -50,6 +50,7 @@ shiny::runGitHub("National-parks-Midcourse", "siwa-p")
 ### Forecasting time-series data: A python implementation
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/siwa-p/Time-Series-Forecasting)
+[![View Document](https://img.shields.io/badge/View-Project_Documentation-green?logo=Read-the-Docs)](pdf/TSForecasting.pdf)
 *Key Skills: Python (PyTorch, LSTM), Time-series forecasting (ARIMA, Regression-based forecasting)*
 <div style="text-align: justify">
 
