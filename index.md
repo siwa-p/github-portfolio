@@ -25,6 +25,26 @@ To capture both spatial and temporal patterns, a 3D convolutional neural network
 <br>
 
 ---
+### <ins>NPPES Healthcare Analytics</ins>: *"ETL pipeline for healthcare provider distribution analysis across US counties"* <br>
+
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/siwa-p/NPPES-Project)
+
+Key Skills: ETL Pipelines, Python (Polars, Pandas), PostgreSQL, Azure Functions, API Integration, Data Engineering
+
+<div style="text-align: justify">
+This project builds a comprehensive data engineering solution to analyze healthcare provider distribution across US counties using the National Plan and Provider Enumeration System (NPPES) dataset.
+
+The main questions addressed are: How are healthcare providers distributed geographically across US counties? Can we efficiently process and analyze 8M+ provider records to enable real-time healthcare analytics?
+
+Data processing involved handling a 10GB+ NPPES dataset through a multi-stage ETL pipeline. The solution leverages Polars for high-performance data processing with lazy loading from Parquet files, PostgreSQL for robust data storage with optimized stored procedures, and Azure Functions for cloud automation. Multiple data sources were integrated including ZIP-county crosswalks, FIPS codes, NUCC taxonomy classifications, and US Census population data via API calls.
+
+The pipeline successfully processed 8M+ healthcare provider records, creating automated county-level aggregations across US counties. A dedicated stakeholder view was implemented to simplify access to provider data enriched with county demographics, enabling easy access without complex joins.
+
+</div>
+<br>
+<center><img src="images/NPPES-ARCHITECTURE.png"/></center>
+<br>
+---
 
 ### Wildland Fires and their effects on US National Parks visitation
 
