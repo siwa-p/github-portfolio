@@ -3,6 +3,36 @@
 ---
 
 ## Projects
+### Data Engineering Project 3: Marvan Think Tank Covid-19 Multinational Data Catalog
+
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/siwa-p/marvan_research_data_pipeline)
+[![Exploratory Data Analysis](https://img.shields.io/badge/View-EDA_Repository-green?logo=Read-the-Docs)](https://github.com/siwa-p/marvan_project_eda)
+[![API for User Access](https://img.shields.io/badge/View-API_Repository-orange?logo=Python)](https://github.com/siwa-p/marvan_research_covid_api)
+
+*Key Skills: Data Engineering, ELT Pipelines, Python, SQL, API Development, Cloud Storage, Unit Testing, Static Code Analysis*
+
+**Team:**  
+- [Michael Galo](https://github.com/MichaelGalo)  
+- [Alex Berka](https://github.com/alexberka)
+
+<div style="text-align: justify">
+This comprehensive group project for the NSS Data Engineering Bootcamp involved building a production-ready multinational Covid-19 open data catalog for Marvan, a strategic think tank. The primary objective was to aggregate and standardize national-level datasets from the United States, United Kingdom, and Canada, focusing on Covid-19, SARS-CoV-2, and Coronavirus data.
+
+**Key Technical Achievements:**
+
+- **Data Discovery & Schema Design**: Surveyed government open data portals and designed a standardized metadata schema for cross-national dataset cataloging.
+- **Orchestrated ELT Pipeline**: Built a robust ELT pipeline with **Apache Airflow orchestration** to automate data ingestion, cleaning, and storage in cloud environments.
+- **Enterprise Data Architecture**: Implemented a **Snowflake data warehouse** using the **Medallion architecture** (bronze, silver, gold layers) with **dbt transformations** for data modeling and quality.
+- **Automated Quality Assurance**: Deployed comprehensive **data quality testing** and automated checks using **dbt** and **GitHub Actions CI/CD**.
+- **Production API Development**: Developed a **FastAPI-based Python API** with **Swagger documentation**, enabling users to filter and retrieve datasets by country, keyword, and update date.
+- **Code Quality & Testing**: Implemented **unit testing** and **static code analysis (Black)** with full documentation and results tracking.
+
+This project demonstrates **enterprise-level data engineering skills** including cloud-based pipeline orchestration, collaborative development practices, and building production-ready, scalable data infrastructure for real-world analytics applications.
+
+</div>
+<br>
+<center><img src="images/marvan_data_architecture.png"/></center>
+<br>
 
 ### <ins>Air Quality</ins>: *"Machine learning models applied to air quality data"* <br>
 
