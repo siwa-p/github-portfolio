@@ -11,10 +11,6 @@
 
 *Key Skills: Data Engineering, ELT Pipelines, Python, SQL, API Development, Cloud Storage, Unit Testing, Static Code Analysis*
 
-**Team:**  
-- [Michael Galo](https://github.com/MichaelGalo)  
-- [Alex Berka](https://github.com/alexberka)
-
 This comprehensive group project for the NSS Data Engineering Bootcamp involved building a production-ready multinational Covid-19 open data catalog for Marvan, a strategic think tank. The primary objective was to aggregate and standardize national-level datasets from the United States, United Kingdom, and Canada, focusing on Covid-19, SARS-CoV-2, and Coronavirus data.
 
 Key Technical Achievements:
@@ -27,6 +23,10 @@ Key Technical Achievements:
 - Code Quality & Testing: Implemented unit testing and static code analysis (Black) with full documentation and results tracking.
 
 This project demonstrates enterprise-level data engineering skills including cloud-based pipeline orchestration, collaborative development practices, and building production-ready, scalable data infrastructure for real-world analytics applications.
+
+<!-- **Team:**  
+- [Michael Galo](https://github.com/MichaelGalo)  
+- [Alex Berka](https://github.com/alexberka) -->
 
 <br>
 <center><img src="images/marvan_data_architecture.png"/></center>
