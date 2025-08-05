@@ -15,13 +15,18 @@
 - [Michael Galo](https://github.com/MichaelGalo)  
 - [Alex Berka](https://github.com/alexberka)
 
-This comprehensive group project for the NSS Data Engineering Bootcamp involved building a **production-ready multinational Covid-19 open data catalog** for Marvan, a strategic think tank. The primary objective was to aggregate and standardize national-level datasets from the United States, United Kingdom, and Canada, focusing on Covid-19, SARS-CoV-2, and Coronavirus data.
+This comprehensive group project for the NSS Data Engineering Bootcamp involved building a production-ready multinational Covid-19 open data catalog for Marvan, a strategic think tank. The primary objective was to aggregate and standardize national-level datasets from the United States, United Kingdom, and Canada, focusing on Covid-19, SARS-CoV-2, and Coronavirus data.
 
-The project encompassed **data discovery and schema design** by surveying government open data portals and designing a standardized metadata schema for cross-national dataset cataloging. We built a robust **ELT pipeline with Apache Airflow orchestration** to automate data ingestion, cleaning, and storage in cloud environments. The **enterprise data architecture** implemented a **Snowflake data warehouse** using the **Medallion architecture** (bronze, silver, gold layers) with **dbt transformations** for data modeling and quality assurance.
+Key Technical Achievements:
 
-**Automated quality testing** was deployed using **dbt** and **GitHub Actions CI/CD** for comprehensive data validation. We developed a **FastAPI-based Python API** with **Swagger documentation**, enabling users to filter and retrieve datasets by country, keyword, and update date. The project maintained high code quality through **unit testing** and **static code analysis (Black)** with full documentation and results tracking.
+- Data Discovery & Schema Design: Surveyed government open data portals and designed a standardized metadata schema for cross-national dataset cataloging.
+- Orchestrated ELT Pipeline: Built a robust ELT pipeline with Apache Airflow orchestration to automate data ingestion, cleaning, and storage in cloud environments.
+- Enterprise Data Architecture: Implemented a Snowflake data warehouse using the Medallion architecture (bronze, silver, gold layers) with dbt transformations for data modeling and quality assurance.
+- Automated Quality Testing: Deployed comprehensive data quality testing and automated checks using dbt and GitHub Actions CI/CD.
+- Production API Development: Developed a FastAPI-based Python API with Swagger documentation, enabling users to filter and retrieve datasets by country, keyword, and update date.
+- Code Quality & Testing: Implemented unit testing and static code analysis (Black) with full documentation and results tracking.
 
-This project demonstrates **enterprise-level data engineering skills** including cloud-based pipeline orchestration, collaborative development practices, and building production-ready, scalable data infrastructure for real-world analytics applications.
+This project demonstrates enterprise-level data engineering skills including cloud-based pipeline orchestration, collaborative development practices, and building production-ready, scalable data infrastructure for real-world analytics applications.
 
 </div>
 <br>
