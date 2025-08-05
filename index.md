@@ -28,7 +28,6 @@ Key Technical Achievements:
 
 This project demonstrates enterprise-level data engineering skills including cloud-based pipeline orchestration, collaborative development practices, and building production-ready, scalable data infrastructure for real-world analytics applications.
 
-</div>
 <br>
 <center><img src="images/marvan_data_architecture.png"/></center>
 <br>
