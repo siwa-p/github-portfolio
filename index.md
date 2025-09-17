@@ -3,7 +3,23 @@
 ---
 
 ## Projects
-### Data Engineering Project 3: Marvan Think Tank Covid-19 Multinational Data Catalog
+### International Trade Insights for United States
+
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/siwa-p/Trends-in-International-Trades)
+
+*Key Skills: Data Engineering, API Integration, Python, dbt, Dremio, MinIO, FastAPI, Streamlit, Prefect, Data Visualization*
+
+This capstone project delivers a comprehensive analytics platform for exploring international trade data related to the United States. The solution integrates multiple data sources—including the U.S. Census Bureau and World Bank WITS APIs—to aggregate, clean, and analyze import/export flows, commodity trends, and the impact of tariff policies.
+
+The architecture leverages modern data engineering tools: raw data is ingested and stored in a scalable MinIO data lake, transformed into Iceberg tables using Dremio and dbt, and orchestrated with Prefect for automation and reproducibility. The processed data powers a RESTful FastAPI backend and interactive Streamlit dashboards, enabling stakeholders to access reliable insights and flexible analytics.
+
+This project demonstrates skills in building production-grade data pipelines, and real-time analytics, supporting policymakers, businesses, and researchers with actionable insights.
+
+<br>
+<center><img src="images/trade_architecture.png"/></center>
+<br>
+
+### Marvan Think Tank Covid-19 Multinational Data Catalog
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/siwa-p/marvan_research_data_pipeline)
 [![Exploratory Data Analysis](https://img.shields.io/badge/View-EDA_Repository-green?logo=Read-the-Docs)](https://github.com/siwa-p/marvan_project_eda)
