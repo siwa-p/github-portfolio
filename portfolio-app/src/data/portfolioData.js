@@ -15,6 +15,21 @@ export const personalInfo = {
 export const projects = [
   {
     id: 1,
+    title: "Personal Budget Analyzer (Ongoing)",
+    githubUrl: "https://github.com/Code-Campfire/smores-syntax",
+    skills: "React, TypeScript, Python, FastAPI, PostgreSQL, Machine Learning, Redux Toolkit, Material-UI, Docker",
+    description: "A collaborative full-stack personal finance application being developed with a team. The application provides comprehensive budget management with transaction categorization, spending trend analysis, bill reminders, and goal tracking capabilities.\n\nThe project utilizes a modern tech stack with React 18 + TypeScript on the frontend and Python FastAPI on the backend. Advanced features include machine learning-powered expense categorization using scikit-learn, interactive data visualizations with Recharts, and integration with banking APIs through Plaid.\n\nKey technical implementations include Redux Toolkit for state management, SQLAlchemy ORM with PostgreSQL for data persistence, Celery with Redis for asynchronous task processing, and containerized deployment with Docker. The ML component uses scikit-learn for smart expense categorization with optional TensorFlow/PyTorch integration for predictive spending insights.",
+    keyAchievements: [
+      "Full-stack Development: Building React + TypeScript frontend with Material-UI and Python FastAPI backend",
+      "Machine Learning Integration: Implementing intelligent expense categorization using scikit-learn",
+      "Advanced Features: Receipt scanning with OCR, predictive spending analysis, and automated savings recommendations",
+      "Team Collaboration: Working in an agile team environment with weekly meetings and collaborative planning",
+      "Modern DevOps: Containerized deployment with Docker Compose, Redis caching, and Celery task queues"
+    ],
+    conclusionText: "This ongoing project demonstrates modern full-stack development practices, ML integration, team collaboration, and building production-ready financial applications with enterprise-grade architecture."
+  },
+  {
+    id: 2,
     title: "International Trade Insights for United States",
     githubUrl: "https://github.com/siwa-p/Trends-in-International-Trades",
     skills: "Data Engineering, API Integration, Python, dbt, Dremio, MinIO, FastAPI, Streamlit, Prefect, Data Visualization",
@@ -22,7 +37,7 @@ export const projects = [
     image: "/images/trade_architecture.png"
   },
   {
-    id: 2,
+    id: 3,
     title: "Marvan Think Tank Covid-19 Multinational Data Catalog",
     githubUrl: "https://github.com/siwa-p/marvan_research_data_pipeline",
     additionalLinks: [
@@ -43,7 +58,7 @@ export const projects = [
     image: "/images/marvan_data_architecture.png"
   },
   {
-    id: 3,
+    id: 4,
     title: "Air Quality: Machine learning models applied to air quality data",
     githubUrl: "https://github.com/siwa-p/Air-quality-monitoring-and-prediction-using-PurpleAir-data",
     skills: "APIs, Python (PyTorch, scikit-learn, Pandas), Regression, Machine Learning",
@@ -51,7 +66,7 @@ export const projects = [
     image: "/images/ensemble_predictions.png"
   },
   {
-    id: 4,
+    id: 5,
     title: "NPPES Healthcare Analytics: ETL pipeline for healthcare provider distribution analysis across US counties",
     githubUrl: "https://github.com/siwa-p/NPPES-Project",
     skills: "ETL Pipelines, Python (Polars, Pandas), PostgreSQL, Azure Functions, API Integration, Data Engineering",
@@ -59,7 +74,7 @@ export const projects = [
     image: "/images/NPPES-ARCHITECTURE.png"
   },
   {
-    id: 5,
+    id: 6,
     title: "Wildland Fires and their effects on US National Parks visitation",
     githubUrl: "https://github.com/siwa-p/Wildland-fires-and-their-effects-on-visitation-data-in-US-National-Parks/tree/main",
     skills: "R (Shiny, tidyverse), time-series forecasting, geospatial data visualization",
@@ -67,7 +82,7 @@ export const projects = [
     runCommand: 'shiny::runGitHub("National-parks-Midcourse", "siwa-p")'
   },
   {
-    id: 6,
+    id: 7,
     title: "Forecasting time-series data: A python implementation",
     githubUrl: "https://github.com/siwa-p/Time-Series-Forecasting",
     documentUrl: "/pdf/TSForecasting.pdf",
@@ -75,21 +90,21 @@ export const projects = [
     description: "This work is a walkthrough for time-series forecasting in Python. Time series data are unique due to their serial dependence, requiring specialized analysis methods and leveraging domain knowledge for effective modeling. The project demonstrates practical steps for handling time series, including data preprocessing, exploratory analysis, feature engineering, and the application of various forecasting models. Emphasis is placed on comparing traditional statistical approaches with machine learning and deep learning techniques to highlight their strengths and limitations in real-world forecasting scenarios.\n\nThe work covers three main forecasting approaches:\n• Time series models (Seasonal ARIMA with exogenous variables)\n• Decision-tree-based regression (XGBoost)\n• Neural network models (LSTM)\n\nEach method is implemented in Python and evaluated using a sample revenue dataset. The project compares model performance and visualizes results with matplotlib and seaborn, demonstrating practical forecasting techniques for time-dependent data."
   },
   {
-    id: 7,
+    id: 8,
     title: "Question-Answering with vector database",
     githubUrl: "https://github.com/siwa-p/Question_Answer_Vector_database/tree/main",
     skills: "Webscraping, chromadb, NLP, HuggingFace",
     description: "This project is an effort to build a simple question-answering model using scraped texts from Wikipedia. This involved scraping Wikipedia articles for each film and extracting the main content, which I then processed and stored in a vector database (ChromaDB). I paired this unstructured text data with a curated set of questions and answers, enabling contextual queries about each movie's details.\n\nTo enable intelligent information retrieval, I used sentence-transformers for semantic search, allowing the system to find relevant context for each question. Leveraging HuggingFace's question-answering pipeline, the model generated automated answers, which I compared against ground-truth responses to evaluate accuracy. This project demonstrates my skills in web scraping, natural language processing, vector search, and the practical evaluation of AI-generated outputs."
   },
   {
-    id: 8,
+    id: 9,
     title: "Using pagination in Python",
     githubUrl: "https://github.com/siwa-p/Using-Pagination-in-Python",
     skills: "Python, APIs, Pagination",
     description: "This project demonstrates how to access and process paginated data from an API using Python, as part of coursework for the Data Engineering Bootcamp at Nashville Software School.\n\nKey steps include authenticating with the API, using query parameters (offset and limit) to retrieve data in batches, and saving the results to a .json file 10 records at a time. The project also covers reformatting and writing the data to a .csv file, ensuring proper formatting for tabular data and handling special characters within values."
   },
   {
-    id: 9,
+    id: 10,
     title: "Janells Car Sales",
     githubUrl: "https://github.com/siwa-p/Jannells-Car-Sales",
     documentUrl: "/pdf/jannels_car_sales.pdf",
