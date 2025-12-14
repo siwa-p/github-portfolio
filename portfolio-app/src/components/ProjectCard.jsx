@@ -1,4 +1,5 @@
 import React from 'react';
+import { getAssetUrl } from '../utils/config';
 import './ProjectCard.css';
 
 const ProjectCard = ({ project }) => {
@@ -42,7 +43,7 @@ const ProjectCard = ({ project }) => {
           ))}
           {project.documentUrl && (
             <a
-              href={project.documentUrl}
+              href={getAssetUrl(project.documentUrl)}
               target="_blank"
               rel="noopener noreferrer"
               className="project-link doc-link"
@@ -90,7 +91,7 @@ const ProjectCard = ({ project }) => {
 
       {project.image && (
         <div className="project-image">
-          <img src={project.image} alt={project.title} />
+          <img src={getAssetUrl(project.image)} alt={project.title} />
         </div>
       )}
     </div>

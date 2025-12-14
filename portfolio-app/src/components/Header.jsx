@@ -1,5 +1,6 @@
 import React from 'react';
 import { personalInfo } from '../data/portfolioData';
+import { getAssetUrl } from '../utils/config';
 import './Header.css';
 
 const Header = () => {
@@ -13,7 +14,7 @@ const Header = () => {
           <p><a href={`mailto:${personalInfo.email}`}>{personalInfo.email}</a></p>
         </div>
         <div className="social-links">
-          <a href={personalInfo.resumeUrl} target="_blank" rel="noopener noreferrer">Resume</a>
+          <a href={getAssetUrl(personalInfo.resumeUrl)} target="_blank" rel="noopener noreferrer">Resume</a>
           <span>|</span>
           <a href={personalInfo.linkedinUrl} target="_blank" rel="noopener noreferrer">LinkedIn</a>
           <span>|</span>
