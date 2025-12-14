@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - dev-react
+      - main
     paths:
       - 'portfolio-app/**'
   workflow_dispatch:
