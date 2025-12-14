@@ -1,0 +1,163 @@
+.project-card {
+  background: white;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  margin-bottom: 2rem;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.project-header {
+  margin-bottom: 1.5rem;
+}
+
+.project-title {
+  font-size: 1.75rem;
+  color: #2d3748;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.project-links {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.project-link {
+  display: inline-block;
+  transition: transform 0.2s;
+}
+
+.project-link:hover {
+  transform: scale(1.05);
+}
+
+.project-link img {
+  display: block;
+}
+
+.project-skills {
+  font-size: 1rem;
+  color: #4a5568;
+  margin-bottom: 1.5rem;
+  font-style: italic;
+  line-height: 1.6;
+}
+
+.project-skills strong {
+  color: #2d3748;
+  font-weight: 600;
+}
+
+.project-description {
+  text-align: justify;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+}
+
+.project-description p {
+  margin-bottom: 1rem;
+  color: #4a5568;
+  font-size: 1.05rem;
+}
+
+.key-achievements {
+  margin: 1.5rem 0;
+}
+
+.key-achievements strong {
+  color: #2d3748;
+  font-size: 1.1rem;
+  display: block;
+  margin-bottom: 0.75rem;
+}
+
+.key-achievements ul {
+  margin-left: 1.5rem;
+  line-height: 1.8;
+}
+
+.key-achievements li {
+  margin-bottom: 0.75rem;
+  color: #4a5568;
+  font-size: 1.05rem;
+}
+
+.conclusion-text {
+  margin-top: 1.5rem;
+  color: #4a5568;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  text-align: justify;
+}
+
+.run-command {
+  background: #f7fafc;
+  padding: 1rem;
+  border-radius: 5px;
+  margin: 1.5rem 0;
+}
+
+.run-command p {
+  margin-bottom: 0.5rem;
+  color: #2d3748;
+  font-weight: 500;
+}
+
+.run-command pre {
+  background: #2d3748;
+  color: #f7fafc;
+  padding: 1rem;
+  border-radius: 5px;
+  overflow-x: auto;
+}
+
+.run-command code {
+  font-family: 'Courier New', monospace;
+  font-size: 0.95rem;
+}
+
+.project-image {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.project-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .project-card {
+    padding: 1.5rem;
+  }
+
+  .project-title {
+    font-size: 1.5rem;
+  }
+
+  .project-skills,
+  .project-description p,
+  .key-achievements li,
+  .conclusion-text {
+    font-size: 1rem;
+  }
+
+  .project-links {
+    gap: 0.5rem;
+  }
+
+  .run-command code {
+    font-size: 0.85rem;
+  }
+}
