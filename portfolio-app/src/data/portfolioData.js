@@ -1,18 +1,14 @@
 export const personalInfo = {
   name: "Prahlad Siwakoti",
   location: "Pennsylvania, USA",
-  phone: "+1(225)210-0199",
+  phone: "+1 (225) 210-0199",
   email: "prasiwakoti@gmail.com",
   resumeUrl: "/pdf/resume_prahlad.pdf",
   linkedinUrl: "https://www.linkedin.com/in/prahlad-siwakoti/",
   githubUrl: "https://github.com/siwa-p",
   googleScholarUrl: "https://scholar.google.com/citations?user=ZUcAvcsAAAAJ&hl=en&oi=ao",
   bio: [
-    "I am a data scientist who enjoys finding patterns in the data and solving problems.",
-    "I have graduated with a Master's Degree in Data Science at University of Texas at Austin, where I received training in data science fundamentals.",
-    "I am currently enrolled in Data Engineering Apprenticeship at Nashville Software School learning the fundamental of data engineering and good coding practices.",
-    "I have a PhD in physics from Louisiana State University.",
-    "I consider myself a hardworking, and inquisitive person. Details matter to me. I am easy to work with."
+    "I am a data scientist with a passion for uncovering patterns in data and solving complex problems. I hold a Master's Degree in Data Science from the University of Texas at Austin, where I gained a strong foundation in data science fundamentals, and a PhD in Physics from Louisiana State University. I have completed Data Engineering and Data Science Apprenticeships at Nashville Software School, where I honed my skills in data engineering, coding best practices, and data science tools and concepts. Starting in Spring 2026, I will be teaching part-time as a Data Analytics Instructor at Elizabethtown College. I am currently seeking full-time opportunities where I can leverage my expertise and contribute to impactful projects. I am a hardworking, detail-oriented, and inquisitive individual who values collaboration and continuous learning."
   ]
 };
 
